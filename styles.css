@@ -1,0 +1,277 @@
+/* ESTILO GERAL */
+
+* {
+
+    margin: 4px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.911);
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+h2.titulo {
+    color: #cac9c9bd;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 12px  ;
+
+}
+
+p.subtitulo {
+    color: #da3030a4;
+    font-size: 20px;
+    text-align: center;
+    margin: 9px 12px  60px;
+
+}
+
+/* SAMP TÍTILO */
+h2.titulo samp {
+    color: #d1282862;
+}
+
+/* ESTILO DO  CABEÇALHO */
+
+header {
+    padding: 36px 5%;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #ffffff63;
+    text-decoration: none;
+    display: inline-block;
+    transform: .2s;
+
+}
+
+header a:hover {
+    color: #a53e3ec2;
+    transform: scale(1.23);
+
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 1px 59px;
+
+}
+
+
+/* ESTILO DO TOPO DO SITE */
+
+section.topo-do-site {
+    padding: 45px 4%;
+    
+
+}
+
+section.topo-do-site .flex {
+    justify-content: space-between;
+    align-items: center;
+    gap: 92px;
+
+}
+
+.topo-do-site h1 {
+    font-size: 44px;
+    color: #cac9c9ce;
+
+   
+    line-height: px;
+}
+/* SAMP DO PONTO FINAL */
+h1.txt-topo-site samp {
+    color: #ca1414c2;
+    font-size: 44px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    padding: 0px 100px;
+
+}
+
+
+/* SAMP CRIATIVIDADE */
+.topo-do-site .txt-topo-site samp {
+    color: #ca1414c2;
+
+}
+
+.topo-do-site h2 {
+    font-size: 1.5em;
+    color: #c20808a8;
+    margin-bottom: 20px;
+    line-height: 30px;
+
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #c9c6c6be;
+    margin: 9px 12px;
+
+    text-indent: 10px;
+
+}
+
+/* imagen flutuar */
+
+.topo-do-site .img-topo-site img {
+
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes flutuar {
+    0% {
+        top: 0px;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+
+/* ESTILO DO DESING GRÁFICO*/
+section .design {
+    padding: 40PX 4%;
+}
+
+section .design .flex {
+    gap: 20px;
+}
+
+.design-box img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px  #ffffff63;
+}
+
+.design .design-box img {
+    color: aliceblue;
+    padding: 40px 4%;
+    border: 2px solid #ffffff1a;
+    border-radius: 40px;
+}
+
+.design .design-box img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px  #ffffff63;
+}
+
+
+.design-box img {
+    transition: transform 0.3s ease;
+    /* Adiciona uma transição suave */
+}
+
+.design-box img:hover {
+    transform: scale(1.1);
+    /* Aumenta a escala da imagem em 10% */
+    opacity: 0.8;
+    /* Diminui a opacidade da imagem */
+    cursor: pointer;
+    /* Muda o cursor para uma mãozinha */
+}
+
+
+
+
+/* ESTILO DA Ilustrações */
+section .Ilustrações {
+    
+    padding: 40PX 4%;
+}
+
+section .Ilustrações .flex {
+    gap: 40px;
+}
+
+.Ilustrações-box img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px  #ffffff63;
+}
+
+.Ilustrações .Ilustrações-box img {
+    color: aliceblue;
+    padding: 40px 4%;
+    border: 2px solid #ffffff1a;
+    border-radius: 40px;
+}
+
+section .txt-topo-site .titulo{
+    margin: 20px 100px;
+    
+}
+
+.Ilustrações .Ilustrações-box img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px  #ffffff63;
+}
+
+
+.Ilustrações-box img {
+    transition: transform 0.3s ease;
+    /* Adiciona uma transição suave */
+}
+
+.Ilustrações-box img:hover {
+    transform: scale(1.1);
+    /* Aumenta a escala da imagem em 10% */
+    opacity: 0.8;
+    /* Diminui a opacidade da imagem */
+    cursor: pointer;
+    /* Muda o cursor para uma mãozinha */
+}
+
+
+/*  ESTILO do sobre */
+
+section.sobre {
+    padding: 80px 10%;
+    box-shadow: 0 0 80px 40px #3d252594;
+}
+
+section.sobre .flex {
+   justify-content: space-around ;
+}
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: rgba(209, 154, 71, 0.342);
+}
+
+
+/* ESTILO DO RODAPÉ */
+footer{
+    padding: 10px 4%;
+    box-shadow: 0 0 80px 10px #33232394;
+}
+
+
+footer .line.footer {
+    color: 20px 0;
+    border-bottom: 2px solid #d117171a;
+}
